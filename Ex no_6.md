@@ -1,19 +1,4 @@
 # EX 6 C Program to print the string "KEYBOARD" n number of times.
-## DATE:
-## AIM:
-To write a C Program to print the string "KEYBOARD" n number of times.
-
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
-
-## Program:
-```
-/*
-Program to print the string "KEYB# EX 6 C Program to print the string "KEYBOARD" n number of times.
 ## DATE: 11/05/2025
 ## AIM:
 To write a C Program to print the string "KEYBOARD" n number of times.
@@ -33,8 +18,8 @@ To write a C Program to print the string "KEYBOARD" n number of times.
 ```
 /*
 Program to print the string "KEYBOARD" n number of times.
-Developed by: SAARVESH.S.R
-RegisterNumber: 212223060234
+Developed by: Kamalesh S
+RegisterNumber: 212223060108
 */
 
 #include <stdio.h>
@@ -58,18 +43,6 @@ int main() {
 ## Output:
 
 ![image](https://github.com/user-attachments/assets/5c80264a-aad7-44d8-be09-02f5a4891949)
-
-
-## Result:
-Thus the program was executed and the output was verified successfully.
-OARD" n number of times.
-Developed by: 
-RegisterNumber:  
-*/
-```
-
-## Output:
-
 
 
 ## Result:
