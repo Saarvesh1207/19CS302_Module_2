@@ -1,5 +1,5 @@
 # EX 6 C Program to print the string "KEYBOARD" n number of times.
-## DATE: 11/05/2025
+## DATE: 26/11/2025
 ## AIM:
 To write a C Program to print the string "KEYBOARD" n number of times.
 
@@ -18,8 +18,8 @@ To write a C Program to print the string "KEYBOARD" n number of times.
 ```
 /*
 Program to print the string "KEYBOARD" n number of times.
-Developed by: Kamalesh S
-RegisterNumber: 212223060108
+Developed by: SAARVESH S.R
+RegisterNumber: 212223060234
 */
 
 #include <stdio.h>
