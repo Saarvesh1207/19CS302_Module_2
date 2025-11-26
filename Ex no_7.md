@@ -1,68 +1,55 @@
-
-# EX 8 C program to perform multiplication and division of two numbers using functions (without argument and without return type).
-## DATE: 11/05/2025
+# EX 7 C Program to Print a right triangle star Pattern
+## DATE:11/05/2025
 ## AIM:
-To write a C program to perform multiplication and division of two numbers using functions (without argument and without return type).
+To write a C Program to Print a right triangle star Pattern
 
 ## Algorithm
-1.Start the program and declare two functions for multiplication and division.
+1.Start the program.
 
-2.Define functions that take no arguments and return no value.
+2.Declare an integer variable for the number of rows.
 
-3.Read two numbers from the user.
+3.Read the number of rows from the user.
 
-4.Call the functions to perform multiplication and division.
+4.Use nested loops to print stars (*) in a right triangle pattern.
 
-5.Display the results. 
+5.End the program.
 
 ## Program:
 ```
 /*
-Program to perform multiplication and division of two numbers using functions (without argument and without return type).
+Program to Print a right triangle star Pattern
 Developed by: SAARVESH S.R
-RegisterNumber:  212223060234
+RegisterNumber: 212223060234
 */
 
 #include <stdio.h>
 
-void multiply()
-{
-    int a, b;
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-    printf("Multiplication = %d\n", a * b);
-}
-
-void divide()
-{
-    int a, b;
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-    if(b != 0)
-    {
-        printf("Division = %.2f\n", (float)a / b);
-    }
-    else
-    {
-        printf("Division by zero is not allowed.\n");
-    }
-}
-
 int main()
 {
-    multiply();
-    divide();
+    int rows, i, j;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &rows);
+
+    for(i = 1; i <= rows; i++)
+    {
+        for(j = 1; j <= i; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
 
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/a7fc5884-af18-497a-af27-03fcafd0288a)
+![image](https://github.com/user-attachments/assets/2a2385fe-b774-49c9-bd07-c3181706abb3)
 
 
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
-
 
